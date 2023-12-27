@@ -47,4 +47,4 @@ elif [[ -n $ZEROSSL_EMAIL ]]; then
 fi
 
 echo "${CERTBOT_ARGS[@]}"
-certbot "${CERTBOT_ARGS[@]}"
+certbot ${CERTBOT_ARGS[@]}
